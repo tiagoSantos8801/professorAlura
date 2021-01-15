@@ -15,7 +15,8 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/pagamento_valor_da_compra"
@@ -60,7 +61,8 @@
         android:maxLength="2"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/pagamento_cvc_cartao"
-        app:layout_constraintStart_toStartOf="@id/pagamento_numero_cartao" />
+        app:layout_constraintStart_toStartOf="@id/pagamento_numero_cartao"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/pagamento_ano_cartao"
@@ -71,7 +73,8 @@
         android:maxLength="2"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/pagamento_cvc_cartao"
-        app:layout_constraintStart_toEndOf="@id/pagamento_mes_cartao" />
+        app:layout_constraintStart_toEndOf="@id/pagamento_mes_cartao"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/pagamento_cvc_cartao"
@@ -84,7 +87,8 @@
         android:maxLength="3"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@id/pagamento_numero_cartao"
-        app:layout_constraintTop_toBottomOf="@id/pagamento_numero_cartao" />
+        app:layout_constraintTop_toBottomOf="@id/pagamento_numero_cartao"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/pagamento_nome_no_cartao"

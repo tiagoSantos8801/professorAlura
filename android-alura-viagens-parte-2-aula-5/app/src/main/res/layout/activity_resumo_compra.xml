@@ -31,7 +31,8 @@
         app:layout_constraintEnd_toEndOf="@+id/resumo_compra_banner_inicial"
         app:layout_constraintStart_toStartOf="@id/resumo_compra_banner_inicial"
         app:layout_constraintTop_toTopOf="@+id/resumo_compra_banner_inicial"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/resumo_compra_realizada_sucesso"

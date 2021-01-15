@@ -25,6 +25,7 @@ public class PagamentoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagamento);
+
         setTitle(TITULO_APPBAR);
         carregaPacoteRecebido();
     }
